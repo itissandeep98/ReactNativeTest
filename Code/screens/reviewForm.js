@@ -3,7 +3,7 @@ import { StyleSheet, Button, TextInput, View, Text } from 'react-native';
 import { globalStyles } from '../styles/global.js';
 import { Formik } from 'formik';
 import * as yup from 'yup';
-import FlatButton from '../shared/button.js';
+import FlatButton from '../shared/button.js.js';
 
 const reviewSchema = yup.object({
   title: yup.string()
